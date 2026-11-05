@@ -221,7 +221,24 @@
         Literature for those who find beauty in the unsettling.
       </p>
     </footer>
+<script>
 
+
+
+  const forms = document.querySelectorAll('.needs-validation');
+
+forms.forEach(form => {
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+
+    if (!form.checkValidity()) {
+      event.stopPropagation();
+    }
+
+    form.classList.add('was-validated');
+  });
+});
+</script>
     <script src="js/code.js"></script>
   </body>
 </html>
