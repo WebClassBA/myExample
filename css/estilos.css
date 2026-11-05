@@ -1,0 +1,13 @@
+#menu-nav button {
+  transition: all 0.3s ease;
+}
+
+#menu-nav button:hover {
+  background-color: #212529;
+  border-color: #dc3545;
+}
+
+#detalle-libro img {
+  max-height: 420px;
+  object-fit: contain;
+}

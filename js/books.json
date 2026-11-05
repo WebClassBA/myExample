@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Our Share of Night",
+    "destination": "https://es.wikipedia.org/wiki/Nuestra_parte_de_noche",
+    "description": "A monumental Gothic and political horror novel set during Argentina's military dictatorship. It follows a father and son fleeing a secret cult known as The Order.",
+    "image": "img/nuestra-parte-de-noche.jpg"
+  },
+  {
+    "title": "How to Disappear Completely",
+    "destination": "https://es.wikipedia.org/wiki/C%C3%B3mo_desaparecer_completamente",
+    "description": "A novel set during Argentina's 2001 economic crisis, portraying the life of a marginalized teenager struggling with a violent and suffocating family environment in the suburbs.",
+    "image": "img/como-desaparecer-completamente.jpg"
+  },
+  {
+    "title": "Kids Who Come Back",
+    "destination": "https://www.lecturalia.com/libro/88620/chicos-que-vuelven",
+    "description": "An unsettling supernatural horror story in which children who were once reported missing mysteriously begin to reappear in a town, unleashing confusion and fear.",
+    "image": "img/chicos-que-vuelven.jpg"
+  }
+]
