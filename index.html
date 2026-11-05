@@ -102,6 +102,7 @@
                   type="text"
                   class="form-control"
                   id="nombre"
+                  name="nombre"
                   placeholder="Tu nombre"
                   required
                 />
@@ -111,7 +112,7 @@
               <!-- Libro -->
               <div class="mb-3">
                 <label for="libro" class="form-label">Libro favorito</label>
-                <select class="form-select" id="libro" required>
+                <select class="form-select" name="libro" id="libro" required>
                   <option value="" selected disabled>Elegí un libro</option>
                   <option value="las-cosas-que-perdimos">
                     Las cosas que perdimos en el fuego
@@ -130,7 +131,7 @@
               <!-- Email -->
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input
+                <input name="email"
                   type="email"
                   class="form-control"
                   id="email"
