@@ -92,10 +92,10 @@
           <div class="modal-body">
             <p class="text-secondary">¿Cuál de sus historias te atrapó?</p>
 
-            <form class="needs-validation" novalidate action="https://api.web3forms.com/submit" method="POST">
+            <form id="miFormulario" class="needs-validation" novalidate action="https://api.web3forms.com/submit" method="POST">
               <!-- Nombre -->
                  <input type="hidden" name="access_key" value="92b11ae8-3e84-429f-b313-0bc839c2565a">
-
+  
               <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre</label>
                 <input
@@ -161,12 +161,30 @@
               </div>
 
               <!-- Botón -->
-              <button type="submit" class="btn btn-danger w-100">Enviar</button>
+              <button type="submit" class="btn btn-danger w-100">Enviar</button> 
             </form>
+            <div id="mensajeGracias" class="d-none">
+  <h3>¡Gracias por tu envío!</h3>
+  <p>Tu formulario se envió correctamente.</p>
+</div>
           </div>
         </div>
       </div>
     </div>
+
+    <script>
+
+      
+const formulario = document.querySelector("#miFormulario");
+const mensajeGracias = document.querySelector("#mensajeGracias");
+
+formulario.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  formulario.classList.add("d-none");
+  mensajeGracias.classList.remove("d-none");
+});
+    </script>
 
     <header
       class="container-fluid bg-black py-5 px-3 mb-5 border-bottom border-danger"
